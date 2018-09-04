@@ -3,19 +3,20 @@ p {
 
 }
 
-h1 {
-    text-align: left;
-}
 .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 500px;
-    height: 350px;
+    height: 450px;
     margin: auto;
     background: blue;
     border-radius: 10px 10px 10px;
     
+}
+.container > h1 {
+    flex: 0 0 100%;
+    font: 12px;
 }
 
 .photo {
