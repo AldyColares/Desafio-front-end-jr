@@ -1,0 +1,53 @@
+p { 
+    margin:0 
+
+}
+
+h1 {
+    text-align: left;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    background: blue;
+    border-radius: 10px 10px 10px;
+    
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    color: salmon;
+    position: relative;
+    padding: 7px;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.location {
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+    z-index: 9999;
+}
+
+.location p {
+    color: black
+}
+
+.photo div {
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    z-index: 9999;
+}
+
+.prize p {
+    color: black;
+}
