@@ -1,0 +1,42 @@
+@media screen and (max-width: 531px) {
+    .container {
+        /* line them up horizontally */
+        display: flex;
+      
+        /* allow for scrolling */
+        overflow-x: auto;
+      
+        /* make it smooth on iOS */
+        -webkit-overflow-scrolling: touch;
+        width: 500px;
+        height: 450px;
+        margin: auto;
+        background: blue;
+        border-radius: 10px 10px 10px;   
+      }
+      .photo {
+        /* make sure the width is honored */
+        flex-shrink: 0;
+        width: 150px;
+        height: 150px;
+      }
+      .slider {
+        /* line them up horizontally */
+        display: flex;
+      
+        /* allow for scrolling */
+        overflow-x: auto;
+      
+        /* make it smooth on iOS */
+        -webkit-overflow-scrolling: touch;  
+      }
+      .slider > div {
+        /* make sure the width is honored */
+        flex-shrink: 0;
+        width: 150px;
+        height: 150px;
+      }
+      /* each slide snaps into place */
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+}
