@@ -55,6 +55,7 @@ img {
 }
 
 .slider {
+    height: 10.5em;
     /* line them up horizontally */
     display: flex;
     justify-content: space-between;
@@ -66,15 +67,17 @@ img {
     -webkit-overflow-scrolling: touch; 
     background: blue;
     border-radius: 10px 10px 10px; 
-  }
-
-  .slider > h1 {
-    flex: 0 0 100%;
-    font: 12px;
 }
+
+
+.slider > h1 {
+    flex: 0 0 100%;
+}
+
 .slider > div {
     /* make sure the width is honored */
     flex-shrink: 0;
     width: 150px;
     height: 150px;
+    position: relative;
   }
