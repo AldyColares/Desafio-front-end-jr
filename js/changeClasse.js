@@ -5,7 +5,7 @@ window.onload = function () {
         element.classList.remove('container');
         element.classList.add('slider');
         var paragraph = document.getElementById("add-text");
-        var text = document.createTextNode('Por favor arraste para a direita.');
+        var text = document.createTextNode('Por favor, arraste para a direita.');
         paragraph.appendChild(text);
     }
 }

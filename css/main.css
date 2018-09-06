@@ -11,8 +11,9 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 500px;
-    height: 450px;
+    align-items: stretch;
+    height: 27em;
+    width: 31em;
     margin: auto;
     background: blue;
     border-radius: 10px 10px 10px;   
@@ -62,6 +63,7 @@ img {
 
     /* allow for scrolling */
     overflow-x: auto;
+    align-items: center;
   
     /* make it smooth on iOS */
     -webkit-overflow-scrolling: touch; 
@@ -79,5 +81,4 @@ img {
     flex-shrink: 0;
     width: 150px;
     height: 150px;
-    position: relative;
   }
